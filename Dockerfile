@@ -24,4 +24,4 @@ RUN update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-15 60 \
 
 
 RUN update-alternatives --display clang && clang++ --version && clang-tidy --version && \
-      g++ --version && cmake --version 
+      g++ --version && cmake --version

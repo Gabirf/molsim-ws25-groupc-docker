@@ -2,7 +2,7 @@ name: Publish Docker Image
 
 on:
   push:
-    branches: ['*ssignment*']
+    branches: ['main']
     paths: ['Dockerfile'] # Only run if Dockerfile changes
   workflow_dispatch: # Allows manual trigger
 

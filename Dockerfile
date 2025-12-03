@@ -1,6 +1,7 @@
 FROM ubuntu:25.10
 
 RUN apt-get update && apt-get install -y  \
+     python3-pip\ 
      libvtk9-dev\
      cmake\
      doxygen\

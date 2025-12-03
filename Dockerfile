@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y  \
      build-essential\
      wget
 
-RUN pip install cmake-format
+RUN pip install cmake-format --break-system-packages
 
 RUN apt-get install -y gcc-15 g++-15
 

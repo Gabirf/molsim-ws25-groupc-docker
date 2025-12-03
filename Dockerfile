@@ -21,6 +21,5 @@ RUN update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-15 60 \
      update-alternatives --install /usr/bin/clang-tidy clang-tidy /usr/bin/clang-tidy-20 1000 && \
      update-alternatives --install /usr/bin/clang-format clang-format /usr/bin/clang-format-20 1000
 
-
 RUN update-alternatives --display clang && clang++ --version && clang-tidy --version && \
       g++ --version && cmake --version
